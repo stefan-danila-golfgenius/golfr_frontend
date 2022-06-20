@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 import ScorePostWidget from '../components/ScorePostWidget'
 import ScoreCard from '../components/ScoreCard'
-import useScores, {FEED_URL} from '../lib/useScores'
+import useScores, { FEED_URL } from '../lib/useScores'
 
 const Home = () => {
   const { scores, error } = useScores()
